@@ -43,6 +43,8 @@ const getPokemon = function (pokemon) {
         info.appendChild(move);
       }
     })
+
+    // If Pokemone not found in database
     .catch((error) => {
       console.error("Fetch Error:", error);
       pokemonImg.src = "logo.png";
