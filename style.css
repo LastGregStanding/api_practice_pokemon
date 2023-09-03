@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: blue;
+  font-size: 20px;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.box-1 {
+  border: solid 1px red;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  inset: 25%;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+.info {
+  display: flex;
+  gap: 5px;
+}
