@@ -6,35 +6,46 @@
 
 body {
   background-color: black;
-  color: blue;
   font-size: 20px;
   height: 100vh;
   width: 100vw;
 }
 
+.title-image {
+  margin-left: 25%;
+}
+
 .container {
   width: 50%;
-  height: 50%;
+  height: 100%;
   margin: 0 auto;
+  /* border: blue 1px solid; */
 }
 
-img {
+#search {
+  height: 30px;
+  font-size: 30px;
+}
+
+.pokemon-info {
+  /* border: orange solid 1px; */
+  color: blue;
+  display: flex;
+}
+
+.error {
+  color: red;
+}
+
+.project-image {
   height: 300px;
   width: 300px;
-  border: red solid 1px;
-}
-
-.results {
-  border: orange solid 1px;
+  /* border: red solid 1px; */
 }
 
 .info {
   display: flex;
   gap: 5px;
-}
-
-.error {
-  color: red;
 }
 
 .hide {
